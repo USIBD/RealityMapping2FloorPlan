@@ -17,8 +17,12 @@ All data is distributed in:
 - **LAZ** format for point clouds  
 - **JSON** format for floor plan annotations  
 
-👉 [Download Dataset](#)  
-👉 [Evaluation Code](#)  
+
+👉 [Training Data: Point Cloud + Ground Truth] (https://oregonstate.box.com/s/kwjn01g84d0fka2j2vrjfd8j8w5n37e6) 
+👉 [Validation Data: Point Cloud + Ground Truth] (https://oregonstate.box.com/s/ber73d1njhxo4vwc4i4qmtbmyyimrprj)
+
+Testing Data: Point Cloud ONLY
+👉 [Evaluation Code]([#](https://oregonstate.box.com/s/op8bul06ea1hm7ldnfmqecrt32kctk64))  
 
 ---
 
