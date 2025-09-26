@@ -18,14 +18,13 @@ All data is distributed in:
 - **JSON** format for floor plan annotations  
 
 
-👉 [https://oregonstate.box.com/s/kwjn01g84d0fka2j2vrjfd8j8w5n37e6](#Training Data: Point Cloud + Ground Truth) 
-👉 [Validation Data: Point Cloud + Ground Truth] (#https://oregonstate.box.com/s/ber73d1njhxo4vwc4i4qmtbmyyimrprj)
+👉 Training Data: [Point Cloud + Ground Truth](https://oregonstate.box.com/s/kwjn01g84d0fka2j2vrjfd8j8w5n37e6) 
 
-Testing Data: Point Cloud ONLY
-👉 [Evaluation Code](#https://oregonstate.box.com/s/op8bul06ea1hm7ldnfmqecrt32kctk64) 
+👉 Validation Data: [Point Cloud + Ground Truth](https://oregonstate.box.com/s/ber73d1njhxo4vwc4i4qmtbmyyimrprj)
+
+👉 Testing Data: [Point Cloud ONLY](https://oregonstate.box.com/s/op8bul06ea1hm7ldnfmqecrt32kctk64) 
 
 ---
-
 ## 📑 Submission Format  
 
 Submissions must follow the same **JSON schema** as the provided ground truth.  
@@ -50,7 +49,7 @@ We evaluate both **geometric accuracy** and **topological consistency**.
    - Rooms are defined as fully enclosed spaces separated by walls and doors.  
 
 2. **Endpoint Accuracy**  
-   - Precision, Recall, and F-measure at thresholds of **5cm, 10cm, and 20cm**.  
+   - Precision, Recall, and F-measure at thresholds of **2in, 4in, and 10in**.  
    - Endpoints matched to ground truth via the Hungarian algorithm.  
 
 3. **Wall Orientation**  
@@ -70,9 +69,8 @@ We evaluate both **geometric accuracy** and **topological consistency**.
 
 ## 🏆 Challenge Rules  
 
-- Participants may use any algorithm (deep learning, classical, or hybrid).  
-- External datasets are allowed, but must be declared in the submission.  
-- Teams are limited to **5 final submissions**.  
+- Participants may use any proprietary software or algorithm (deep learning, classical, or hybrid).  
+- External datasets particularly in the case of vendors are allowed, but must be declared in the submission.  
 
 ---
 
