@@ -18,11 +18,11 @@ All data is distributed in:
 - **JSON** format for floor plan annotations  
 
 
-👉 Training Data: [Point Cloud + Ground Truth](https://oregonstate.box.com/s/kwjn01g84d0fka2j2vrjfd8j8w5n37e6) 
+👉 Training Data: [Point Cloud + Ground Truth](https://uofi.box.com/s/tbj6fpx4o3h8uzh9ycumfp50xjq4k959) 
 
-👉 Validation Data: [Point Cloud + Ground Truth](https://oregonstate.box.com/s/ber73d1njhxo4vwc4i4qmtbmyyimrprj)
+👉 Validation Data: [Point Cloud + Ground Truth](https://uofi.box.com/s/448iv4eehpbi1nxaacw0es5861aiah6j)
 
-👉 Testing Data: [Point Cloud ONLY](https://oregonstate.box.com/s/op8bul06ea1hm7ldnfmqecrt32kctk64) 
+👉 Testing Data: [Point Cloud ONLY](https://uofi.box.com/s/ebwvgy10hkp1a8fzm6ke5bl4u6ekytb3) 
 
 ---
 ## 📑 Submission Format  
