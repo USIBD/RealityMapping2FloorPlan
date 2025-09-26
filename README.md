@@ -65,9 +65,11 @@ We evaluate both **geometric accuracy** and **topological consistency**.
    - Compares topological correctness (rooms, holes, connectivity).  
    - Computed as the absolute difference between predicted and ground truth Betti numbers.  
 
-For exact details and code regarding evaluation metrics, please look here: [2d_floorplan_eval](https://github.com/reconstruct/Scan2FloorPlan/tree/main/2d_floorplan_eval)
----
 
+For exact details and code regarding evaluation metrics, please look here: 
+[2d_floorplan_eval](https://github.com/reconstruct/Scan2FloorPlan/tree/main/2d_floorplan_eval)
+
+--
 ## 🏆 Challenge Rules  
 
 - Participants may use any proprietary software or algorithm (deep learning, classical, or hybrid).  
