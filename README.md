@@ -5,7 +5,6 @@ This competition is designed to benchmark and advance methods for generating acc
 
 
 ## 📂 Data & Participation
-
 Participants may either:
 - **Use the benchmark dataset provided by the organizers** (point clouds + ground truth floor plans), OR
 - **Bring their own proprietary datasets** in the same format.
@@ -13,18 +12,19 @@ Participants may either:
 All submissions must adhere to the standardized input/output formats described below, ensuring results remain comparable across teams.
 
 ## 📂 Benchmark Dataset (optional to use)
-- **Training Set:** 50 aligned point clouds in LAZ format from dozens of buildings. Each point cloud includes a ground truth floor plan which is aligned with the point cloud, in the same coordinate system.  
-- **Validation Set:** 15 point clouds from five different building with aligned ground truth floor plans.  
-- **Test Set:** For blind evaluation purposes, 12 additional point clouds from other buildings --not used within the training and testing datasets-- are offered without ground truth.   
+- **Training Set:** 50 aligned point clouds in LAZ format with ground truth JSON floor plans.
+- **Validation Set:** 15 point clouds with aligned ground truth.
+- **Test Set:** 12 additional point clouds provided without ground truth for blind evaluation.
 
 **Supported formats** 
-- **LAZ** format for point clouds  
-- **JSON** format for floor plan annotations  
+- Point Clouds: LAZ
+- Floor Plans: JSON annotations
 
 👉 Training Data: [Point Cloud + Ground Truth](https://uofi.box.com/s/tbj6fpx4o3h8uzh9ycumfp50xjq4k959) 
 👉 Validation Data: [Point Cloud + Ground Truth](https://uofi.box.com/s/448iv4eehpbi1nxaacw0es5861aiah6j)
 👉 Testing Data: [Point Cloud ONLY](https://uofi.box.com/s/ebwvgy10hkp1a8fzm6ke5bl4u6ekytb3) 
 
+--
 ## 📑 Submission Format  
 
 Submissions must follow the same **JSON schema** as the provided ground truth.  Each JSON file should include:  
@@ -36,17 +36,11 @@ Submissions must follow the same **JSON schema** as the provided ground truth.  
 
 A sample submission is available in the [GitHub repository](#).  
 
+---
 ## 📊 Evaluation Metrics  
 
 Submissions will be evaluated using both geometric and topological metrics:
 
-
-Wall Orientation Similarity 
-
-
-Warping Error 
-
-Betti Number Error 
 ### 🔹 Geometric Metrics  
 - **IoU**  Intersection-over-Union (IoU) for room polygons
 - **Endpoint Accuracy**  (Precision/Recall/F-measure at 2in, 4in, 10in)
@@ -62,7 +56,6 @@ For exact details and code regarding evaluation metrics, please look here:
 
 --
 ## 🏆 Challenge Rules  
-
 - Participants may use any method: proprietary software, machine learning, classical, or hybrid approaches.
 - External datasets are allowed but must be declared in the submission.
 - Teams may choose to evaluate on the benchmark dataset or on their own provided dataset, as long as the submission format is consistent.
