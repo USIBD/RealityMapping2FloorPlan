@@ -1,18 +1,25 @@
 # Scan2FloorPlanChallenge  
 
-Welcome to the **USIBD Scan2FloorPla Challenge**!  
-This competition focuses on generating accurate floor plans directly from 3D point clouds.  
+Welcome to the FloorPlan Generation Challenge!
+This competition is designed to benchmark and advance methods for generating accurate 2D floor plans directly from 3D spatial data.
 
----
-## 📂 Dataset  
 
-The dataset for this competition consists of multiple buildings, each consisting of multiple floors and a variety of arcihtectural features.  
+## 📂 Data & Participation
+
+Participants may either:
+
+- **Use the benchmark dataset provided by the organizers** (point clouds + ground truth floor plans), OR
+- **Bring their own proprietary datasets** in the same format.
+
+All submissions must adhere to the standardized input/output formats described below, ensuring results remain comparable across teams.
+
+## 📂 Benchmark Dataset (optional to use)
 
 - **Training Set:** 50 aligned point clouds in LAZ format from dozens of buildings. Each point cloud includes a ground truth floor plan which is aligned with the point cloud, in the same coordinate system.  
 - **Validation Set:** 15 point clouds from five different building with aligned ground truth floor plans.  
 - **Test Set:** For blind evaluation purposes, 12 additional point clouds from other buildings --not used within the training and testing datasets-- are offered without ground truth.   
 
-Similar to recent Computer Vision and Pattern Recognition Conference events, all data is distributed in:  
+**Supported formats** 
 - **LAZ** format for point clouds  
 - **JSON** format for floor plan annotations  
 
@@ -63,8 +70,11 @@ For exact details and code regarding evaluation metrics, please look here:
 --
 ## 🏆 Challenge Rules  
 
-- Participants may use any proprietary software or algorithm (deep learning, classical, or hybrid).  
-- Usage of external datasets for training/testing or validation is allowed, but must be declared in the submission.  
+- Participants may use any method: proprietary software, machine learning, classical, or hybrid approaches.
+
+- External datasets are allowed but must be declared in the submission.
+
+- Teams may choose to evaluate on the benchmark dataset or on their own provided dataset, as long as the submission format is consistent.
 
 ---
 
