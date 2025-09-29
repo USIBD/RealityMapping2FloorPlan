@@ -19,9 +19,12 @@ All submissions must adhere to the standardized input/output formats described b
 **Supported formats** 
 - Point Clouds: LAZ
 - Floor Plans: JSON annotations
+  
 
 👉 Training Data: [Point Cloud + Ground Truth](https://uofi.box.com/s/tbj6fpx4o3h8uzh9ycumfp50xjq4k959) 
+
 👉 Validation Data: [Point Cloud + Ground Truth](https://uofi.box.com/s/448iv4eehpbi1nxaacw0es5861aiah6j)
+
 👉 Testing Data: [Point Cloud ONLY](https://uofi.box.com/s/ebwvgy10hkp1a8fzm6ke5bl4u6ekytb3) 
 
 --
