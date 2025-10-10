@@ -68,7 +68,7 @@ For exact details and code regarding evaluation metrics, please look here:
 ## 🔗 Resources  
 - 📥 Dataset Download [1](https://uofi.box.com/s/ur2ieo3lbfsthk7h5hz0mdkx5439z23m)  [2](https://uofi.box.com/s/448iv4eehpbi1nxaacw0es5861aiah6j)
 - 🧩 [Evaluation Toolkit](https://uofi.box.com/s/ebwvgy10hkp1a8fzm6ke5bl4u6ekytb3)  
-- 🚀 [Submission Portal]()  
+- 🚀 [Submission Portal](https://uofi.app.box.com/f/9a6b181c229a4803bde32f8939edc0b2)  
 
 ---
 
