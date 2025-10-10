@@ -9,7 +9,7 @@ Participants may either:
 - **Use the benchmark dataset provided by the organizers** (point clouds + ground truth floor plans), OR
 - **Bring their own proprietary datasets** in the same format.
 
-All submissions must adhere to the standardized input/output formats described below, ensuring results remain comparable across teams.
+All submissions must adhere to the standardized output formats described below, ensuring results remain comparable across teams.
 
 ## 📂 Benchmark Dataset (optional to use)
 - **Training Set:** 50 aligned point clouds in LAZ format with ground truth JSON floor plans.
