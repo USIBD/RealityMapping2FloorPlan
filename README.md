@@ -11,7 +11,7 @@ Participants may either:
 
 All submissions must adhere to the standardized output formats described below, ensuring results remain comparable across teams.
 
-## 📂 Benchmark Dataset (optional to use)
+## 📂 Benchmark Dataset (optional to use- you can use your own dataset)
 - **Training Set:** 50 aligned point clouds in LAZ format with ground truth JSON floor plans.
 - **Validation Set:** 15 point clouds with aligned ground truth.
 - **Test Set:** 12 additional point clouds provided without ground truth for blind evaluation.
