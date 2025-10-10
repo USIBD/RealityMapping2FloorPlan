@@ -1,6 +1,6 @@
 # Scan2FloorPlanChallenge  
 
-Welcome to the FloorPlan Generation Challenge!
+Welcome to the  USIBD FloorPlan Generation Challenge!
 This competition is designed to benchmark and advance methods as well as solutions to generate accurate 2D floor plans directly from 3D reality mapping data.
 
 
