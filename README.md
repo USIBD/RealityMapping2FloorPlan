@@ -76,7 +76,7 @@ For exact details and code regarding evaluation metrics, please look here:
 
 - **Dataset Release:** Oct 10, 2025  
 - **Submission Deadline:** Dec 8, 2025 
-- **Winners Announced:** Tuesday or Wednesday (Feb. 17 or 18, 2026). 
+- **Winners Announced:** Feb. 18, 2026
 
 ---
 
