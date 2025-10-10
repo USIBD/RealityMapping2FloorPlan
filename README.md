@@ -1,7 +1,7 @@
 # Scan2FloorPlanChallenge  
 
 Welcome to the FloorPlan Generation Challenge!
-This competition is designed to benchmark and advance methods for generating accurate 2D floor plans directly from 3D spatial data.
+This competition is designed to benchmark and advance methods as well as solutions to generate accurate 2D floor plans directly from 3D reality mapping data.
 
 
 ## 📂 Data & Participation
