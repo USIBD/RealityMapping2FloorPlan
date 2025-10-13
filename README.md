@@ -1,6 +1,6 @@
 <img width="604" height="212" alt="Sponsor_Badge_Example" src="https://github.com/user-attachments/assets/9321da98-07f7-4928-889e-8131af9993d0" />
 
-# RealityMapping2FloorPlanChallenge  
+# RealityMapping To Floor Plan Challenge  
 Welcome to the USIBD FloorPlan Generation Challenge!
 This competition is designed to benchmark and advance methods and solutions that automatically generate accurate 2D floor plans directly from 3D reality mapping data, produced through laser scanning and close-range photogrammetry.
 
