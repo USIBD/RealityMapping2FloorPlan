@@ -26,7 +26,9 @@ Use of the Benchmark Dataset is optional — participants are equally welcome to
 - Floor Plans: JSON files including respective annotations
   
 👉 Training Data: [50 aligned point clouds in LAZ format with ground-truth JSON floor plans](https://uofi.box.com/s/tbj6fpx4o3h8uzh9ycumfp50xjq4k959) 
+
 👉 Validation Data: [15 point clouds with aligned ground truth](https://uofi.box.com/s/448iv4eehpbi1nxaacw0es5861aiah6j)
+
 👉 Testing Data: [12 additional point clouds provided without ground-truth for blind evaluation](https://uofi.box.com/s/ebwvgy10hkp1a8fzm6ke5bl4u6ekytb3) 
 
 ---
