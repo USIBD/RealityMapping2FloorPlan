@@ -53,9 +53,12 @@ For exact details and code regarding evaluation metrics, please look here:
 
 ---
 ## 🏆 Challenge Rules  
-- Participants may use any method: proprietary software, machine learning, classical, or hybrid approaches.
-- External datasets are allowed but must be declared in the submission.
-- Teams may choose to evaluate on the benchmark dataset or on their own provided dataset, as long as the submission format is consistent.
+- Participants are free to employ any technical approach of their choice, including proprietary software, machine learning models, classical algorithms, or hybrid methods that combine multiple techniques. Creativity and methodological diversity are encouraged.
+
+- The use of external datasets is permitted; however, all such datasets must be clearly declared and referenced in the final submission to ensure transparency and reproducibility.
+
+- Teams may choose to evaluate their methods on the benchmark dataset or on their own custom dataset, provided that the submission format and evaluation protocol remain consistent with the challenge specifications. This flexibility allows participants to demonstrate the robustness and adaptability of their approaches across different data sources.
+
 
 ---
 ## 🔗 Resources  
