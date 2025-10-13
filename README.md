@@ -10,8 +10,10 @@ Through this initiative, USIBD seeks to drive innovation at the intersection of 
 
 ## 📂 Data & Participation
 Participants may either:
-- **Use the benchmark dataset provided by the organizers** (point clouds + ground truth floor plans), OR
-- **Bring their own proprietary datasets** in the same format.
+- **Use the benchmark dataset provided by the organizers**, which includes high-quality point clouds and corresponding ground truth floor plans carefully curated to represent a variety of real-world building types, scales, and complexities. This dataset serves as the common reference point for performance comparison, helping ensure a level playing field across all participants.
+- **Bring their own proprietary datasets** in the same format. Teams choosing this option are encouraged to demonstrate the generalizability and robustness of their methods across diverse environments and data sources. Using proprietary data offers an opportunity to showcase solutions that excel beyond the benchmark dataset and may better reflect practical, real-world applications.
+
+Regardless of dataset choice, all submissions must adhere to the standardized output formats defined by the organizers. This ensures that every result can be evaluated using a consistent set of metrics and that comparisons between teams remain objective and meaningful. Adherence to these formats also supports downstream usability — enabling the generated floor plans to integrate seamlessly into building documentation workflows, BIM systems, and spatial analytics tools.
 
 All submissions must adhere to the standardized output formats described below, ensuring results remain comparable across teams.
 
