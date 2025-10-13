@@ -74,4 +74,4 @@ For exact details and code regarding evaluation metrics, please look here:
 
 ---
 ## 📧 Contact  
-For questions, please reach out to **[USIBD Competition Team](mani.golparvar@usbid.org)**.  
+For questions, please reach out to USIBD Reality2Floor Challenge organizers, Mani Golparvar and Ken VanBree via [email](mailto:mani.golparvar@usbid.org).  
