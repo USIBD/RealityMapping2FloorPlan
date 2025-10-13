@@ -1,4 +1,4 @@
-<img width="1208" height="423" alt="Sponsor_Badge_Example" src="https://github.com/user-attachments/assets/9321da98-07f7-4928-889e-8131af9993d0" />
+<img width="604" height="212" alt="Sponsor_Badge_Example" src="https://github.com/user-attachments/assets/9321da98-07f7-4928-889e-8131af9993d0" />
 
 # RealityMapping2FloorPlanChallenge  
 
