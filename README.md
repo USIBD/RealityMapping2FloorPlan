@@ -6,7 +6,7 @@ This competition is designed to benchmark and advance methods and solutions that
 
 As the demand for digital twins, building documentation, and real estate visualization continues to grow, automation has become essential. Traditional floor plan creation from 3D scans is often time-consuming, labor-intensive, and prone to human error. By developing and testing automated approaches, this challenge aims to accelerate the transformation from raw spatial data into clean, standardized 2D deliverables — saving countless hours of manual drafting while ensuring consistency and precision.
 
-Through this initiative, USIBD seeks to drive innovation at the intersection of reality capture, AI, and building documentation, empowering practitioners and researchers to push the limits of what’s possible in automated spatial intelligence.
+Through this initiative, USIBD seeks to drive innovation at the intersection of reality mapping, Artifical Intelligence, and building documentation, empowering practitioners and researchers to push the limits of what’s possible in automated spatial intelligence.
 
 ## 📂 Data & Participation
 Participants may either:
