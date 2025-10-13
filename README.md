@@ -4,7 +4,7 @@
 Welcome to the USIBD FloorPlan Generation Challenge!
 This competition is designed to benchmark and advance methods and solutions that automatically generate accurate 2D floor plans directly from 3D reality mapping data, produced through laser scanning and close-range photogrammetry.
 
-As the demand for digital twins, building documentation, and real estate visualization continues to grow, automation has become essential. Traditional floor plan creation from 3D scans is often time-consuming, labor-intensive, and prone to human error. By developing and testing automated approaches, this challenge aims to accelerate the transformation from raw spatial data into clean, standardized 2D deliverables — saving countless hours of manual drafting while ensuring consistency and precision.
+As the demand for digital twins, building documentation, and real estate visualization continues to grow, automation has become essential. Traditional floor plan creation from 3D scans is often time-consuming, labor-intensive, and prone to human error. By developing and testing automated approaches, this challenge aims to accelerate the transformation from raw spatial data into clean, standardized 2D deliverables — saving countless hours of manual drafting while ensuring consistency and precision. Providing details on the Level of Accuracy (LOA) of the used dataset, based on [USIBD LOA Specification Version 3.1](https://usibd.org/level-of-accuracy/) is highlighted encouraged.
 
 Through this initiative, USIBD seeks to drive innovation at the intersection of reality mapping, Artifical Intelligence, and building documentation, empowering practitioners and researchers to push the limits of what’s possible in automated spatial intelligence.
 
