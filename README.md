@@ -2,8 +2,8 @@
 
 # RealityMapping2FloorPlanChallenge  
 
-Welcome to the  USIBD FloorPlan Generation Challenge!
-This competition is designed to benchmark and advance methods as well as solutions to generate accurate 2D floor plans directly from 3D reality mapping data.
+Welcome to the USIBD FloorPlan Generation Challenge!
+This competition is designed to benchmark and advance methods and solutions that automatically generate accurate 2D floor plans directly from 3D reality mapping data, generated through laser scanning devices as well as close-range photogrammetry based solutions.
 
 
 ## 📂 Data & Participation
@@ -14,13 +14,13 @@ Participants may either:
 All submissions must adhere to the standardized output formats described below, ensuring results remain comparable across teams.
 
 ## 📂 Benchmark Dataset (optional to use- you can use your own dataset)
-- **Training Set:** 50 aligned point clouds in LAZ format with ground truth JSON floor plans.
+- **Training Set:** 50 aligned point clouds in LAZ format with ground-truth JSON floor plans.
 - **Validation Set:** 15 point clouds with aligned ground truth.
-- **Test Set:** 12 additional point clouds provided without ground truth for blind evaluation.
+- **Test Set:** 12 additional point clouds provided without ground-truth for blind evaluation.
 
 **Supported formats** 
 - Point Clouds: LAZ
-- Floor Plans: JSON annotations
+- Floor Plans: JSON files including respective annotations
   
 
 👉 Training Data: [Point Cloud + Ground Truth](https://uofi.box.com/s/tbj6fpx4o3h8uzh9ycumfp50xjq4k959) 
@@ -32,19 +32,17 @@ All submissions must adhere to the standardized output formats described below, 
 --
 ## 📑 Submission Format  
 
-Submissions must follow the same **JSON schema** as the provided ground truth.  Each JSON file should include:  
+Submissions must follow the same **JSON schema** as the provided ground-truth.  Each JSON file should include:  
 
-- **Room polygons** (wall boundaries)  
+- **Metadata** (floor ID, building ID)
+- **Wall boundaries** (polygons)  
 - **Column positions**
 - **Door locations**  
-- **Metadata** (floor ID, building ID)  
-
-A sample submission is available in the [GitHub repository](#).  
-
+ 
 ---
-## 📊 Evaluation Metrics  
+## 📊 Quantitative Evaluation  
 
-Submissions will be evaluated using both geometric and topological metrics:
+Submissions will be evaluated quantitively using both geometric and topological metrics:
 
 ### 🔹 Geometric Metrics  
 - **IoU**  Intersection-over-Union (IoU) for room polygons
