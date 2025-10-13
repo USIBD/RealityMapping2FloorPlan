@@ -16,15 +16,10 @@ Participants may either:
 Regardless of dataset choice, all submissions must adhere to the standardized output formats defined by the organizers. This ensures that every result can be evaluated using a consistent set of metrics and that comparisons between teams remain objective and meaningful. Adherence to these formats also supports downstream usability — enabling the generated floor plans to integrate seamlessly into building documentation workflows, BIM systems, and spatial analytics tools.
 
 ## 📂 Dataset
-Participants have the option to use the Benchmark Dataset provided by the organizers, consisting of high-quality 3D point clouds and corresponding ground truth 2D floor plans. This dataset serves as a standardized testbed for algorithm development and evaluation, enabling consistent comparisons across diverse approaches. The benchmark data is derived from publicly available resources originally curated for academic evaluation in the [CVPR Scan-to-Floorplan (Scan2Plan) Challenge](https://github.com/GradientSpaces/cv4aec-challenge), developed in collaboration with several leading universities and research institutions. These datasets represent a broad range of building types and scanning conditions, offering a robust foundation for automated floor plan generation research.
+Participants have the option to use the Benchmark Dataset provided by the organizers, consisting of high-quality 3D point clouds (in LAZ format) and corresponding ground truth 2D floor plans (JSON files including respective annotations). This dataset serves as a standardized testbed for algorithm development and evaluation, enabling consistent comparisons across diverse approaches. The benchmark data is derived from publicly available resources originally curated for academic evaluation in the [CVPR Scan-to-Floorplan (Scan2Plan) Challenge](https://github.com/GradientSpaces/cv4aec-challenge), developed in collaboration with several leading universities and research institutions. These datasets represent a broad range of building types and scanning conditions, offering a robust foundation for automated floor plan generation research.
 
 Use of the Benchmark Dataset is optional — participants are equally welcome to submit results generated from their own proprietary datasets, provided they conform to the required input and output specifications described below. This flexibility encourages innovation while maintaining a fair and reproducible evaluation framework.
 
-
-**Supported formats** 
-- Point Clouds: LAZ
-- Floor Plans: JSON files including respective annotations
-  
 👉 Training Data: [50 aligned point clouds in LAZ format with ground-truth JSON floor plans](https://uofi.box.com/s/tbj6fpx4o3h8uzh9ycumfp50xjq4k959) 
 
 👉 Validation Data: [15 point clouds with aligned ground truth](https://uofi.box.com/s/448iv4eehpbi1nxaacw0es5861aiah6j)
