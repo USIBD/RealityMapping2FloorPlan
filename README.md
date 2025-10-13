@@ -15,8 +15,6 @@ Participants may either:
 
 Regardless of dataset choice, all submissions must adhere to the standardized output formats defined by the organizers. This ensures that every result can be evaluated using a consistent set of metrics and that comparisons between teams remain objective and meaningful. Adherence to these formats also supports downstream usability — enabling the generated floor plans to integrate seamlessly into building documentation workflows, BIM systems, and spatial analytics tools.
 
-All submissions must adhere to the standardized output formats described below, ensuring results remain comparable across teams.
-
 ## 📂 Benchmark Dataset (optional to use- you can use your own dataset)
 - **Training Set:** 50 aligned point clouds in LAZ format with ground-truth JSON floor plans.
 - **Validation Set:** 15 point clouds with aligned ground truth.
