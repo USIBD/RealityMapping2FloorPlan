@@ -10,23 +10,24 @@ Through this initiative, USIBD seeks to drive innovation at the intersection of 
 
 ## 📂 Data & Participation
 Participants may either:
-- **Use the benchmark dataset provided by the organizers**, which includes high-quality point clouds and corresponding ground truth floor plans carefully curated to represent a variety of real-world building types, scales, and complexities. This dataset serves as the common reference point for performance comparison, helping ensure a level playing field across all participants.
-- **Bring their own proprietary datasets** in the same format. Teams choosing this option are encouraged to demonstrate the generalizability and robustness of their methods across diverse environments and data sources. Using proprietary data offers an opportunity to showcase solutions that excel beyond the benchmark dataset and may better reflect practical, real-world applications. Providing details on the Level of Accuracy (LOA) of the used dataset, based on [USIBD LOA Specification Version 3.1](https://usibd.org/level-of-accuracy/) is highlighted encouraged.
+- **Use the benchmark dataset**, which includes high-quality point clouds and corresponding ground truth floor plans carefully curated to represent a variety of real-world building types, scales, and complexities. This dataset serves as the common reference point for performance comparison, helping ensure a level playing field across all participants.
+- **Bring new datasets** in the same format as the bnchmark datasets. Teams choosing this option are encouraged to demonstrate the generalizability and robustness of their methods across diverse environments and data sources. Using proprietary data offers an opportunity to showcase solutions that excel beyond the benchmark dataset and may better reflect practical, real-world applications. Providing details on the Level of Accuracy (LOA) of the used dataset, based on [USIBD LOA Specification Version 3.1](https://usibd.org/level-of-accuracy/) is highlighted encouraged.
 
 Regardless of dataset choice, all submissions must adhere to the standardized output formats defined by the organizers. This ensures that every result can be evaluated using a consistent set of metrics and that comparisons between teams remain objective and meaningful. Adherence to these formats also supports downstream usability — enabling the generated floor plans to integrate seamlessly into building documentation workflows, BIM systems, and spatial analytics tools.
 
-## 📂 Benchmark Dataset (optional to use- you can use your own dataset)
-- **Training Set:** 50 aligned point clouds in LAZ format with ground-truth JSON floor plans.
-- **Validation Set:** 15 point clouds with aligned ground truth.
-- **Test Set:** 12 additional point clouds provided without ground-truth for blind evaluation.
+## 📂 Dataset
+Participants have the option to use the Benchmark Dataset provided by the organizers, consisting of high-quality 3D point clouds and corresponding ground truth 2D floor plans. This dataset serves as a standardized testbed for algorithm development and evaluation, enabling consistent comparisons across diverse approaches. The benchmark data is derived from publicly available resources originally curated for academic evaluation in the [CVPR Scan-to-Floorplan (Scan2Plan) Challenge](https://github.com/GradientSpaces/cv4aec-challenge), developed in collaboration with several leading universities and research institutions. These datasets represent a broad range of building types and scanning conditions, offering a robust foundation for automated floor plan generation research.
+
+Use of the Benchmark Dataset is optional — participants are equally welcome to submit results generated from their own proprietary datasets, provided they conform to the required input and output specifications described below. This flexibility encourages innovation while maintaining a fair and reproducible evaluation framework.
+
 
 **Supported formats** 
 - Point Clouds: LAZ
 - Floor Plans: JSON files including respective annotations
   
-👉 Training Data: [Point Cloud + Ground Truth](https://uofi.box.com/s/tbj6fpx4o3h8uzh9ycumfp50xjq4k959) 
-👉 Validation Data: [Point Cloud + Ground Truth](https://uofi.box.com/s/448iv4eehpbi1nxaacw0es5861aiah6j)
-👉 Testing Data: [Point Cloud ONLY](https://uofi.box.com/s/ebwvgy10hkp1a8fzm6ke5bl4u6ekytb3) 
+👉 Training Data: [50 aligned point clouds in LAZ format with ground-truth JSON floor plans](https://uofi.box.com/s/tbj6fpx4o3h8uzh9ycumfp50xjq4k959) 
+👉 Validation Data: [15 point clouds with aligned ground truth](https://uofi.box.com/s/448iv4eehpbi1nxaacw0es5861aiah6j)
+👉 Testing Data: [12 additional point clouds provided without ground-truth for blind evaluation](https://uofi.box.com/s/ebwvgy10hkp1a8fzm6ke5bl4u6ekytb3) 
 
 ---
 ## 📑 Submission Format  
