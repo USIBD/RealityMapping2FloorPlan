@@ -41,7 +41,7 @@ Submissions will be evaluated quantitively using both geometric and topological 
 
 ### 🔹 Geometric Metrics  
 - **IoU**  Intersection-over-Union (IoU) for room polygons
-- **Endpoint Accuracy**  (Precision/Recall/F-measure at 2in, 4in, 10in)
+- **Endpoint Accuracy**  (Precision/Recall/F-measure, measured at various distances)
 - **Wall Orientation Similarity**  (cosine similarity between predicted vs. ground truth wall segments)
 
 ### 🔹 Topological Metrics  
