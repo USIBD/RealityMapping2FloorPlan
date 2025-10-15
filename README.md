@@ -18,13 +18,13 @@ Regardless of your dataset choice, all submissions must adhere to the standardiz
 ## 📂 Dataset
 Participants have the option to use the Benchmark Dataset provided by the organizers, consisting of high-quality 3D point clouds (in LAZ format) and corresponding ground truth 2D floor plans (JSON files including respective annotations). This dataset serves as a standardized testbed for algorithm development and evaluation, enabling consistent comparisons across diverse approaches. The benchmark data is derived from publicly available resources originally curated for academic evaluation in the CVPR Scan-to-Floorplan (Scan2Plan) Challenge [1](https://github.com/GradientSpaces/cv4aec-challenge), developed by several universities. These datasets represent a broad range of building types and scanning conditions, offering a robust foundation for automated floor plan generation research.
 
-Use of the Benchmark Dataset is optional — participants are equally welcome to submit results generated from their own proprietary datasets, provided they conform to the required input and output specifications described below. This flexibility encourages innovation while maintaining a fair and reproducible evaluation framework.
+Use of the Benchmark Dataset is optional — participants are equally welcome to submit results generated from their own proprietary datasets, provided they conform to the required output specifications described below. This flexibility encourages innovation while maintaining a fair and reproducible evaluation framework.
 
-👉 Training Data: [50 aligned point clouds in LAZ format with ground-truth JSON floor plans](https://uofi.box.com/s/tbj6fpx4o3h8uzh9ycumfp50xjq4k959) 
+👉 Training Data: [Point clouds with aligned ground-truth floor plans](https://uofi.box.com/s/tbj6fpx4o3h8uzh9ycumfp50xjq4k959) 
 
-👉 Validation Data: [15 point clouds with aligned ground truth](https://uofi.box.com/s/448iv4eehpbi1nxaacw0es5861aiah6j)
+👉 Validation Data: [Point clouds with aligned ground truth floor plans](https://uofi.box.com/s/448iv4eehpbi1nxaacw0es5861aiah6j)
 
-👉 Testing Data: [12 additional point clouds provided without ground-truth for blind evaluation](https://uofi.box.com/s/ebwvgy10hkp1a8fzm6ke5bl4u6ekytb3) 
+👉 Testing Data: [Additional point clouds provided without ground-truth for blind evaluation](https://uofi.box.com/s/ebwvgy10hkp1a8fzm6ke5bl4u6ekytb3) 
 
 ---
 ## 📑 Submission Format  
