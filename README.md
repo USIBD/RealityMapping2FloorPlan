@@ -39,7 +39,7 @@ Submissions must follow the same **JSON schema** as the provided ground-truth.  
 ## 📊 Quantitative Evaluation  
 Submissions will be evaluated quantitively using [USIBD LOA Specification Version 3.1](https://usibd.org/level-of-accuracy/) as well as geometric and topological metrics:
 
-### Level of Accuracy (LOA)
+### 🔹 Level of Accuracy (LOA)
 - **Represented Accuracy** The accuracy of the processed deliverable (i.e., drawing) derived from the input point cloud data. LOA uses statistical measures (standard deviation) and confidence levels to define those tolerances
 
 ### 🔹 Geometric Metrics  
